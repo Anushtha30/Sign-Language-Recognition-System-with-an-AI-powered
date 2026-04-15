@@ -1,0 +1,10 @@
+Revamp application interface with a modern dark theme and improved user experience
+
+Redesign the UI with a dark theme, updating the home, sentence builder, suggestions panel, and sidebar components. Modify the WebcamFeed to pass last detected word and confidence, and enhance the App.tsx to enable dark mode by default.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: d6599326-c458-4cf2-97c6-04a873ea8cfa
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Event-Id: 6c92cbaa-e355-4fb8-8eca-7db63c1d260e
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/ed1b9a3b-3914-4a4b-963b-32a6332d30ec/d6599326-c458-4cf2-97c6-04a873ea8cfa/XVp9vbJ
+Replit-Helium-Checkpoint-Created: true
