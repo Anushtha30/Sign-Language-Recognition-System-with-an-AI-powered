@@ -1,148 +1,178 @@
 ---
-name: storyboard
-description: Create storyboards for social media videos, UGC content, and short-form video campaigns.
+name: branding-generator
+description: Create brand identity kits with color palettes, typography, logo concepts, brand naming, and brand guidelines.
 ---
 
-# Storyboarding for Social Content
+# Branding Generator
 
-Shot-by-shot storyboards for TikTok, Reels, YouTube Shorts, and UGC ad scripts. Built around retention physics, not film-school conventions.
+Create brand identity kits. Interview the user, research the space, then deliver 3 distinct brand directions with visual assets.
 
 ## When to Use
 
-- TikTok / Reel / YouTube Short planning
-- UGC ad scripts (creator briefs, testimonial mashups)
-- Multi-platform video campaigns
+- "I need branding / a brand identity / brand kit"
+- Color palettes, typography, visual identity from scratch
+- Rebranding or brand refresh
+- Brand naming
 
 ## When NOT to Use
 
-- Static ads (ad-creative) · Written posts (content-machine) · Slide decks (use slides skill)
+- Full UI design (use design skill) · Slide decks (use slides skill)
 
-## Platform Specs (2025-2026)
+## Step 1: Brand Interview
 
-| Platform | Ratio | Resolution | Max duration | Sweet spot | File |
-|---|---|---|---|---|---|
-| TikTok | 9:16 | 1080×1920 | 10 min in-app / 60 min upload | **21-34 sec** | MP4/MOV, H.264, 287MB mobile / 500MB web |
-| Instagram Reels | 9:16 | 1080×1920 | 3 min in-app / 15 min upload | **<90 sec** for Explore boost | MP4/MOV, 4GB |
-| YouTube Shorts | 9:16 | 1080×1920 (up to 4K) | **3 min** | 15-60 sec | MP4 |
-| YouTube long-form | 16:9 | 1920×1080+ | unlimited | 8-12 min (mid-roll ads) | — |
+Conduct this like a real branding agency discovery session. Ask these questions **conversationally, not as a wall of text** — adapt based on answers, ask follow-ups, go deeper where it matters. Group into 2-3 messages max.
 
-**Universal safe zone for cross-posting:** Keep all text, faces, logos inside the **center 900×1400** of the 1080×1920 frame. Top 14% + bottom 20-35% are covered by UI on at least one platform.
+### Round 1 — The Business
 
-## The 3-Second Rule (Data-Backed)
+- What does your company/product do, in one sentence?
+- Who is your target audience? (Be specific — age, role, lifestyle, not just "everyone")
+- What problem do you solve that nobody else does?
+- What's your pricing position? (Budget / mid-market / premium / luxury)
+- **Do you already have a name, or do you need naming help?**
 
-TikTok's algorithm scores hook retention **separately** from total watch time. 2025 creator analytics:
+### Round 2 — The Feeling
 
-| 3-sec retention | View multiplier | Outcome |
-|---|---|---|
-| **85%+** | 2.8× | Viral tier — FYP push |
-| **70-85%** | 2.2× | Optimal reach |
-| **60-70%** | 1.6× | Average |
-| **<60%** | baseline | Minimal distribution |
+- Name 3 brands you admire (any industry) and what you admire about them
+- If your brand were a person, how would they dress? How would they speak?
+- What emotions should someone feel when they see your brand for the first time?
+- What's the one word you'd want people to associate with you?
+- Any colors, styles, or aesthetics you absolutely hate?
 
-**Target: keep ≥65% of viewers past 0:03.** If you're losing >35% in 3 seconds, the hook is broken — rewrite the opening, not the body. 84% of viral TikToks in 2025 used an identifiable psychological trigger in the first 3 seconds.
+### Round 3 — Practical Constraints
 
-## Named Hook Formulas
+- Do you have any existing brand assets (logo, colors, fonts) you want to keep?
+- Where will this brand primarily live? (Web app, mobile app, physical product, social media, print)
+- Any industry conventions you need to follow — or deliberately break?
+- Competitor URLs or screenshots? (If provided, extract their palettes with colorthief for contrast analysis)
 
-The scroll-stopping element must fire in **0-2 seconds**. Seconds 3-5 expand it. **Never introduce — interrupt.** Banned openers: "Hey guys," "Welcome back," "So today I'm gonna..."
+**Do not proceed until you have solid answers.** Push back if answers are vague — "everyone" is not a target audience, "clean and modern" is not a personality.
 
-| Hook | Template | Trigger |
-|---|---|---|
-| **POV** | "POV: you just found out [revelation]" | Puts viewer inside the scenario; personal relevance |
-| **Stop-scrolling callout** | "Stop scrolling if you're a [role] who [pain]" | Audience self-selects; filters for high-intent |
-| **Contrarian** | "Everyone says X. That's completely wrong." | Cognitive dissonance demands resolution |
-| **Unfinished story** | "I almost [drastic action] until I found..." | Open loop — Zeigarnik effect |
-| **Negative listicle** | "3 [category] mistakes that are costing you [outcome]" | Loss aversion > gain framing |
-| **Number hook** | "$47,000 in 30 days — here's the exact breakdown" | Specificity = credibility |
-| **Secret reveal** | "What [authority] doesn't want you to know about X" | Insider info promise |
-| **Surprise reaction** | Open on a shocked face, silent beat, then reveal | Viewer's brain asks "what are they reacting to?" |
-| **Visual interrupt** | Start mid-action, mid-motion, mid-chaos | Pattern break — no static frame 1 |
+## Step 2: Research
 
-**The silent test:** Watch your first 3 seconds on mute. If text overlay + visual alone don't communicate the promise, it fails — ~85% of social video is watched muted.
+After the interview, do targeted research before generating directions:
 
-## Script Structure by Video Type
+- **Competitor visual audit** — Search for 3-5 competitors' visual identities. Extract their color palettes, typography, and logo styles. Present a side-by-side summary of what's common in the space so the new brand can visually stand apart — not just conceptually, but with measurable color distance.
+- **Mood/reference gathering** — Search for visual references matching the interview answers (e.g., "minimalist premium SaaS branding", "bold playful fintech design").
+- **Industry conventions** — What do users in this space expect? Where is there room to stand out?
 
-### Organic short-form (15-60s) — Hook → Value → Loop
+## Step 2.5: Brand Naming (if needed)
 
-```text
-0:00-0:02  HOOK         Visual interrupt + text overlay with the promise
-0:02-0:05  EXPAND       Why this matters to YOU (the viewer)
-0:05-0:XX  DELIVER      The value. Pattern-interrupt every 3-5s: cut, zoom, text pop, angle change
-0:XX-end   LOOP/CTA     End mid-sentence OR loop back to frame 1 for rewatch. Soft CTA in caption, not in video.
+If the user doesn't have a name, generate name candidates as part of each brand direction. For each direction, propose 2-3 name options.
 
+**Naming criteria:**
+
+- **Memorable** — short (ideally 1-2 syllables, max 3), easy to say and spell
+- **Distinctive** — doesn't sound like existing competitors in the space
+- **Meaningful** — connects to the brand concept, even if abstractly
+- **Domain-friendly** — check `.com` availability via `webSearch("site:instantdomainsearch.com [name]")` or similar
+- **Social-friendly** — the name should work as a handle (@name) on major platforms
+
+**Name generation approaches:**
+
+1. **Portmanteau** — blend two relevant words (e.g., Pinterest = Pin + Interest)
+2. **Action verb** — conveys what the product does (e.g., Grab, Snap, Dash)
+3. **Abstract/invented** — coined word that sounds right (e.g., Spotify, Figma)
+4. **Real word, new context** — existing word reframed (e.g., Slack, Notion, Linear)
+5. **Foreign/multilingual** — borrow from another language for freshness
+
+Present names alongside each direction so the name and visual identity feel cohesive.
+
+## Step 3: Generate 3 Brand Directions
+
+**Always present exactly 3 distinct directions.** Each should feel like a different creative team's pitch — not slight variations.
+
+For each direction, provide:
+
+1. **Brand name** (if naming) **& concept narrative** — 1-2 sentence strategic thinking behind this direction
+2. **Color palette** — primary, secondary, accent with hex + OKLCH values. Include neutral scale (50-900) tinted toward the primary hue. Verify WCAG AA contrast for all text/background pairs.
+3. **Typography** — display + body font pairing from Google Fonts with rationale
+4. **Voice** — 3-5 adjectives defining how the brand speaks, plus an example headline
+5. **Visual mood** — overall aesthetic description (photography style, illustration approach, texture usage). Reference 2-3 real-world brands that share elements.
+6. **Exportable tokens** — provide CSS custom properties and Tailwind config alongside each direction (not just at the end) so developers can start experimenting immediately:
+
+```css
+/* Direction A tokens */
+--primary: #1A1A2E;
+--primary-oklch: oklch(18% 0.02 270);
+--accent: #D4A855;
+--background: #F5F0EB;
 ```
 
-Mid-video retention hooks at ~15s and ~30s ("but here's the part nobody talks about...").
-
-### UGC ad (15-30s) — Direct Response formula
-
-The proven DR structure: **Hook → Problem → Agitate → Solution → Proof → CTA**
-
-```text
-0:00-0:02  HOOK      "I was about to [give up on X]..."
-0:02-0:05  PROBLEM   Show/say the pain. Be specific.
-0:05-0:08  AGITATE   "And it just kept getting worse — [consequence]"
-0:08-0:20  SOLUTION  Product in hand. Demo it working. Lo-fi > polished.
-0:15-0:22  PROOF     Green-screen reviews behind you, or "my [authority figure] friend told me..."
-0:22-0:30  CTA       Verbal + text overlay. "Link in bio" / "Use code X"
-
+```js
+// Tailwind extend
+colors: {
+  primary: { 50: '...', 100: '...', /* ... */ 900: '...' },
+  accent: { 50: '...', /* ... */ 900: '...' }
+}
 ```
 
-**UGC ad writing rules:**
+## Step 4: User Picks a Direction
 
-- Write like you text a friend — contractions, "literally," "obsessed," imperfect grammar
-- One emotion per script (relief / excitement / transformation — pick one)
-- Modular shooting: film hook, problem, demo, CTA as separate clips → mix-and-match 3 hooks × 1 body × 2 CTAs = 6 ad variants
-- For TikTok Spark Ads, script must feel organic — get creator authorization codes; Spark Ads keep organic engagement metrics
-- Research pain points in TikTok comments / Amazon reviews / Reddit before writing — use their exact words
+Present all 3 and ask the user to pick one or mix elements. Use structured prompts to make mixing easier:
 
-**Vertical-specific angles:** Beauty → before/after transformation. Fitness → "30 days with X" challenge. SaaS → screen recording solving the problem in <10s. Ecom → unboxing + speed-of-delivery.
+- "Which **name** resonates most?"
+- "Which **color palette** feels right for your brand?"
+- "Which **voice/tone** matches how you want to speak to users?"
+- "Which **visual mood** would you want your product to feel like?"
 
-## Shot-by-Shot Storyboard Format
+The user can pick Direction A's name with Direction B's colors and Direction C's tone — facilitate that mixing explicitly. Don't proceed to assets until they approve a direction (or hybrid).
 
-| # | Time | Shot | Visual | On-screen text | VO / Audio | Retention device |
-|---|---|---|---|---|---|---|
-| 1 | 0:00-0:02 | CU face | Shocked expression, product out of frame | "I was today years old..." | [silence / gasp] | Surprise reaction hook |
-| 2 | 0:02-0:05 | MS | Hold up product | "...when I learned THIS" | "So I've been doing X wrong for 3 years" | Text reveal |
-| 3 | 0:05-0:08 | POV | Hands demo the product | — | VO continues | Angle change = pattern interrupt |
-| 4 | 0:08-0:12 | Split screen | Before / After | "BEFORE → AFTER" | — | Visual proof |
-| 5 | 0:12-0:15 | CU face | Direct to camera | "Link in my bio" | "Code SAVE20 — thank me later" | CTA |
+## Step 5: Deliver the Brand Kit
 
-**Shot types:** CU (close-up), MS (medium), WS (wide), POV, OTS (over-the-shoulder), Screen recording, Green-screen, B-roll.
+Once a direction is approved, **delegate to the design subagent** (`subagent` with `specialization="DESIGN"`) to build polished visual boards. Embed them as iframes on the canvas.
 
-## Visual Output — Always Use the Design Canvas
+### Deliverables
 
-**Always render the storyboard visually on the design canvas** using the `canvas` skill. Do not just output a text table — build a real, visual storyboard with a generated image for every shot.
+**Board 1 — Color & Typography:** Color swatches with hex + OKLCH values, shade ramps (50-900), typography specimen at heading/body/caption sizes with Google Fonts loaded, contrast audit table, dark mode variant.
 
-### Generated Shot Images
+**Board 2 — Logo Concepts:** 3-4 logo variations (wordmark, icon+text, icon-only, monogram) built as **inline SVG**. Show on light and dark backgrounds at multiple sizes (large display + 32px favicon size). Include SVG source for export.
 
-Use the `media-generation` skill to **generate an image for every shot** in the storyboard. Each image should visualize exactly what the camera sees for that shot — match the shot type (CU, MS, WS, POV, etc.), framing, subject, and mood described in the storyboard. These are the storyboard frames, not placeholders.
+Logo quality checklist:
 
-### Canvas Layout
+- Every logo must be **recognizable at 32px** (favicon/app icon test)
+- Include a **single-color version** for monochrome contexts (printing, embossing, watermarks)
+- Test on **both light and dark backgrounds** — the logo must work on both without modification or with a simple color inversion
+- Use **geometric simplicity** — avoid fine details that collapse at small sizes
+- Provide the icon in a **rounded-square container** variant for app store / social profile use
 
-Each shot is a vertical stack on the canvas, arranged left-to-right as a horizontal timeline:
+**Board 3 — Brand in Action:** Realistic mockups showing the brand applied to the **user's actual product type**, not generic pages. If the user is building a marketplace, show a listing card, search results, and app header. If they're building a SaaS dashboard, show the dashboard. Match the mockups to what they're actually building. This board should feel like seeing their real product with the new brand applied.
 
-1. **Shot image** (`image` shape, 400w × 300h) — the generated frame for this shot
-2. **Metadata bar** (`geo` shape, 400w × 60h) — shot number, timestamp, and shot type. Color-coded by purpose: red/orange for hook shots, blue for value delivery, green for CTA.
-3. **Script/VO bar** (`geo` shape, 400w × 80h) — the voiceover line, on-screen text, or audio direction for this shot
+**Board 4 — Brand Guidelines:** Color usage rules, typography hierarchy, voice & tone guidelines, 1-2 sample applications (business card, social post).
 
-Use 440px horizontal spacing between shot columns. Add a **title shape** across the top with the video concept, platform, and target duration.
+## Step 5.5: Domain & Social Handle Check
 
-For long storyboards (>8 shots), wrap to a second row.
+After the user approves a direction and name, verify availability:
 
-## Production Notes
+- **Domain**: Search for `.com`, `.co`, `.app`, `.io` availability
+- **Social handles**: Check `@name` availability on major platforms via web search (Instagram, TikTok, X/Twitter)
+- **Trademark conflicts**: Quick web search for existing trademarks in the same industry
 
-- **Cuts:** Every 1.5-3 sec on TikTok, every 3-5 sec on YouTube. Static shots >5s bleed viewers.
-- **Captions:** Always burned-in. Platform auto-captions are unreliable and can't be styled.
-- **Audio:** Trending sound at low volume under VO > original audio only. Use `webSearch` for "[platform] trending sounds this week" — shelf life is ~7-14 days.
-- **UGC aesthetic:** Phone camera, natural light, slightly messy background. Ring lights and DSLRs read as "ad" and tank trust. Authenticity converts 3-4× polished.
-- **Research:** `webSearch` for current top-performing ad hooks — e.g. `webSearch("[industry] TikTok ad hooks 2026")` or `webSearch("[industry] viral ad examples")`. The TikTok Creative Center (ads.tiktok.com/business/creativecenter) is a useful reference but requires direct browser interaction to filter; search for articles and breakdowns that cite its data.
+Present findings clearly:
 
-## A/B Testing Plan
+```text
+Name: SWAPD
+- swapd.com — ❌ taken
+- swapd.co — ✅ available
+- swapd.app — ✅ available
+- @swapd (Instagram) — ❌ taken
+- @getswapd (Instagram) — ✅ available
+- @swapd (TikTok) — ✅ available
+```
 
-Always deliver 3 hook variants for the same body. Variables to test (change one at a time): Hook type (problem vs. outcome), Proof timing (early vs. late), CTA hardness (soft "check it out" vs. hard "buy now"). Run 7-14 days before picking a winner.
+If the primary domain or key handles are taken, suggest variations (get-, try-, use- prefixes, or alternate TLDs) before the user commits.
+
+## Color Science
+
+- Work in OKLCH color space (perceptually uniform — same L = same perceived lightness across hues)
+- Use color harmony from OKLCH hue space: complementary (H+180°), analogous (H±30°), triadic (H±120°), split-comp (H+150°/H+210°)
+- Generate shade ramps by stepping L linearly in OKLCH — avoids the muddy-middle problem of RGB interpolation
+- WCAG 2.2 AA: 4.5:1 contrast for normal text, 3:1 for large text and UI components
+- Use chroma-js or apcach for programmatic contrast verification
+- Dark mode: backgrounds at `oklch(15-20% 0.01 H)` not pure black. Desaturate brand colors slightly (reduce C by ~0.02).
 
 ## Limitations
 
-- Produces scripts/storyboards only — no video rendering
-- Cannot access live trending sounds (suggest mood + search query)
-- Cannot measure retention curves
+- Logo concepts are starting points — final production logos should be refined with a dedicated designer
+- Fonts limited to Google Fonts / open-source unless user provides custom fonts
+- Domain/handle availability checks are point-in-time — availability can change; register quickly once decided
+- Trademark search is a surface-level web check, not a legal opinion — recommend a proper trademark search for high-stakes brands

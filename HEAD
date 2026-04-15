@@ -1,3 +1,5 @@
 0000000000000000000000000000000000000000 4d68d2b3e42b6e39b6a2f849113f655481c8b9b3 agent <agent@replit.com> 1775855023 +0000	commit (initial): Initial commit
 4d68d2b3e42b6e39b6a2f849113f655481c8b9b3 4607a080848be6f407a45f2d7b545773ecd85c42 veronicaxjenner <57573359-veronicaxjenner@users.noreply.replit.com> 1776172860 +0000	commit: Add core functionality for sign language recognition and AI autocomplete
 4607a080848be6f407a45f2d7b545773ecd85c42 2855e27d1a5ff2a23c436b65b8c2ccc713e0c00f veronicaxjenner <57573359-veronicaxjenner@users.noreply.replit.com> 1776173282 +0000	commit: Revamp application interface with a modern dark theme and improved user experience
+2855e27d1a5ff2a23c436b65b8c2ccc713e0c00f 3734a5b29d8b6d12c12a310b05f767b66dac2f1f veronicaxjenner <57573359-veronicaxjenner@users.noreply.replit.com> 1776237531 +0000	commit: Improve webcam gesture detection reliability and prevent crashes
+3734a5b29d8b6d12c12a310b05f767b66dac2f1f 23f651f43be28b52705291be1460c129fba0742f veronicaxjenner <57573359-veronicaxjenner@users.noreply.replit.com> 1776237594 +0000	commit: Add a live camera feed to the gesture guide for real-time practice
