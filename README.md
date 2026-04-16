@@ -1,51 +1,187 @@
 # Sign-Language-Recognition-System-with-an-AI-powered
-SignSync - Sign Language Recognition System
-Overview
-AI-powered sign language recognition system with NLP-based autocomplete. Built as a React + Vite frontend with Express backend in a pnpm workspace monorepo.
 
-Stack
-Monorepo tool: pnpm workspaces
-Node.js version: 24
-Package manager: pnpm
-TypeScript version: 5.9
-Frontend: React + Vite + Tailwind CSS + shadcn/ui
-Backend: Express 5
-Hand Detection: MediaPipe Hands (browser-side)
-NLP: Custom N-gram model (bigram/trigram) for autocomplete
-TTS: Web Speech API (browser-side)
-Database: PostgreSQL + Drizzle ORM (available but not used for core features)
-Validation: Zod
-API codegen: Orval (from OpenAPI spec)
-Architecture
-Frontend (artifacts/sign-language)
-Webcam Feed: Uses MediaPipe Hands for real-time hand landmark detection in the browser
-Gesture Classification: Sends detected landmarks to backend API for classification
-Sentence Builder: Accumulates detected words into running sentences
-Autocomplete Panel: Shows NLP-predicted next words with confidence scores
-Text-to-Speech: Browser SpeechSynthesis API for reading sentences aloud
-Language Support: English and Hindi toggle
-History: Stores completed sentences in localStorage
-Backend (artifacts/api-server)
-POST /api/classify-gesture: Classifies hand landmarks into sign language words using geometric analysis
-POST /api/autocomplete: Returns word suggestions using N-gram language model
-GET /api/supported-gestures: Returns list of all supported gestures
-POST /api/sentence-stats: Returns sentence statistics and completeness
-Supported Gestures (16 words)
-hello, yes, no, thank you, please, help, water, food, I, you, want, good, sorry, stop, love, go
+# 🤟 SignSync — Sign Language Recognition System
 
-NLP Autocomplete
-Bigram and trigram models trained on conversational sentence corpus
-Supports both English and Hindi
-Returns top 5 suggestions with confidence scores
-Keyboard shortcuts (1-5) for quick selection
-Key Commands
-pnpm run typecheck — full typecheck across all packages
-pnpm run build — typecheck + build all packages
-pnpm --filter @workspace/api-spec run codegen — regenerate API hooks and Zod schemas
-pnpm --filter @workspace/api-server run dev — run API server locally
-pnpm --filter @workspace/sign-language run dev — run frontend locally
-Pages
-/ — Main translation page with webcam, sentence builder, autocomplete
-/guide — Reference guide for all supported gestures
-/history — History of translated sentences
-See the pnpm-workspace skill for workspace structure, TypeScript setup, and package details.
+> AI-powered real-time sign language recognition with NLP-based autocomplete and speech output.
+
+---
+
+## 🚀 Overview
+
+SignSync is an intelligent sign language recognition system that translates hand gestures into text and speech in real time.
+
+It combines Computer Vision (MediaPipe) + NLP (N-gram models) to not just detect signs — but predict what the user wants to say next, making communication faster and more natural.
+
+---
+
+## ✨ Key Features
+
+- 🎥 Real-time Hand Tracking using MediaPipe (browser-based)
+- 🧠 Gesture Classification API (custom geometric analysis)
+- 💬 Smart Sentence Builder
+- 🔮 Autocomplete Suggestions (Bigram + Trigram NLP)
+- 🔊 Text-to-Speech Output
+- 🌐 Multi-language Support (English + Hindi)
+- 🕘 Sentence History (localStorage)
+- ⚡ Keyboard Shortcuts (1–5) for quick selection
+
+---
+
+## 🏗️ Tech Stack
+
+### 🧩 Monorepo Setup
+- pnpm workspaces
+- Node.js v24
+- TypeScript v5.9
+
+### 🎨 Frontend
+- React + Vite  
+- Tailwind CSS + shadcn/ui  
+- MediaPipe Hands  
+- Web Speech API  
+
+### ⚙️ Backend
+- Express 5  
+- Zod (validation)  
+- Orval (API codegen from OpenAPI)
+
+### 🧠 AI / NLP
+- Custom Bigram + Trigram Language Model
+- Confidence-based next-word prediction
+
+### 🗄️ Database (Optional)
+- PostgreSQL + Drizzle ORM  
+
+---
+
+## 🧠 How It Works
+
+```mermaid
+flowchart LR
+A[Webcam Feed] --> B[MediaPipe Hands]
+B --> C[Landmark Detection]
+C --> D[Backend API]
+D --> E[Gesture Classification]
+E --> F[Sentence Builder]
+F --> G[Autocomplete Engine]
+G --> H[User Suggestions]
+F --> I[Text-to-Speech]
+```
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| POST | /api/classify-gesture | Convert hand landmarks → word |
+| POST | /api/autocomplete | Get next-word predictions |
+| GET  | /api/supported-gestures | List supported signs |
+| POST | /api/sentence-stats | Analyze sentence completeness |
+
+---
+
+## ✋ Supported Gestures
+
+```
+hello, yes, no, thank you, please, help, water, food,
+I, you, want, good, sorry, stop, love, go
+```
+
+---
+
+## 🔮 NLP Autocomplete
+
+- Trained on conversational datasets  
+- Supports English + Hindi  
+
+Uses:
+- Bigram: P(word₂ | word₁)
+- Trigram: P(word₃ | word₁, word₂)
+
+Returns:
+- Top 5 predictions  
+- Confidence scores  
+
+---
+
+## 🖥️ Project Structure
+
+```
+artifacts/
+ ├── sign-language/   # Frontend (React)
+ └── api-server/      # Backend (Express)
+```
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1. Clone Repo
+```bash
+git clone https://github.com/Anushtha30/SignSync.git
+cd SignSync
+```
+
+### 2. Install Dependencies
+```bash
+pnpm install
+```
+
+### 3. Run Development Servers
+
+Frontend:
+```bash
+pnpm --filter @workspace/sign-language run dev
+```
+
+Backend:
+```bash
+pnpm --filter @workspace/api-server run dev
+```
+
+---
+
+## 🛠️ Useful Commands
+
+```bash
+pnpm run typecheck
+pnpm run build
+pnpm --filter @workspace/api-spec run codegen
+```
+
+---
+
+## 📄 Pages
+
+| Route | Description |
+|------|------------|
+| / | Main translation interface |
+| /guide | Gesture reference |
+| /history | Sentence history |
+
+---
+
+## 🚀 Future Improvements
+
+- Mobile responsiveness optimization  
+- Deep Learning model (CNN/LSTM) for better accuracy  
+- More language support  
+- Cloud deployment (AWS/GCP)  
+- User profiles + saved conversations  
+
+---
+
+## 💡 Why This Project Stands Out
+
+- Combines Computer Vision + NLP + UX
+- Real-world accessibility impact
+- Predictive communication system (not just recognition)
+- Clean monorepo architecture
+
+---
+
+## 👩‍💻 Author
+
+**Anushtha Sharma**  
+GitHub: https://github.com/Anushtha30
