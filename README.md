@@ -183,5 +183,5 @@ pnpm --filter @workspace/api-spec run codegen
 
 ## 👩‍💻 Author
 
-**Anushtha Sharma** and **kashish shivhare**  
+**Anushtha Sharma(SBU220271)** and **kashish shivhare(SBU220360)**  
 
